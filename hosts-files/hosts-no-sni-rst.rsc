@@ -1,8 +1,8 @@
 /ip dns static
 
-# Copyright (c) 2017-2019, googlehosts members.
+# Copyright (c) 2017-2020, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-12-05
+# Last updated: 2020-06-19
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -14,27 +14,22 @@ add address=127.0.0.1 name=localhost
 # Localhost (DO NOT REMOVE) End
 
 # GoogleHosts Start
-add address=185.200.34.198 name=185-200-34-198.googlehosts.org
-add address=185.200.34.198 name=tg-2.googlehosts.org
-add address=107.174.205.58 name=107-174-205-58.googlehosts.org
-add address=107.174.205.58 name=tg-3.googlehosts.org
-add address=185.200.34.209 name=185-200-34-209.googlehosts.org
-add address=185.200.34.209 name=tg-4.googlehosts.org
-add address=107.174.203.60 name=107-174-203-60.googlehosts.org
-add address=107.174.203.60 name=tg-5.googlehosts.org
-add address=117.50.61.150 name=117-50-61-150.googlehosts.org
-add address=117.50.61.150 name=tg-7.googlehosts.org
-add address=106.75.2.132 name=106-75-2-132.googlehosts.org
-add address=106.75.2.132 name=tg-7-b.googlehosts.org
-add address=103.105.48.234 name=103-105-48-234.googlehosts.org
-add address=103.105.48.234 name=tg-9.googlehosts.org
-add address=45.89.228.109 name=45-89-228-109.googlehosts.org
-add address=45.89.228.109 name=tg-10.googlehosts.org
-add address=185.22.152.42 name=185-22-152-42.googlehosts.org
-add address=185.22.152.42 name=ss-3.googlehosts.org
-add address=103.124.106.174 name=103-124-106-174.googlehosts.org
-add address=103.124.106.174 name=proxy.googlehosts.org
+add address=2.56.240.163 name=ss-3.googlehosts.org
+add address=204.44.66.78 name=204-44-66-78.googlehosts.org
+add address=204.44.66.78 name=tg-1.googlehosts.org
+add address=45.89.228.109 name=ss-3.googlehosts.org
+add address=74.125.34.1 name=googlehosts.org
 # GoogleHosts End
+
+# 9GAG Start
+add address=104.16.103.144 name=9gag.com
+add address=104.16.103.144 name=web-t.9gag.com
+add address=104.16.103.144 name=www.9gag.com
+add address=104.17.170.73 name=assets-9gag-fun.9cache.com
+add address=104.17.170.73 name=img-9gag-fun.9cache.com
+add address=104.17.170.73 name=js-webt-lol.9cache.com
+add address=104.17.170.73 name=miscmedia-9gag-fun.9cache.com
+# 9GAG End
 
 # AbeBooks Start
 add address=199.255.34.38 name=data.abebooks.com
@@ -671,14 +666,14 @@ add address=113.29.189.203 name=search.daum.net
 add address=113.29.189.55 name=like.daum.net
 add address=113.29.190.177 name=channel.daum.net
 add address=113.29.190.20 name=apihub.daum.net
-add address=115.127.250.75 name=img1.daumcdn.net
-add address=115.127.250.75 name=img2.daumcdn.net
-add address=115.127.250.75 name=m1.daumcdn.net
-add address=115.127.250.75 name=search1.daumcdn.net
-add address=115.127.250.75 name=search2.daumcdn.net
-add address=115.127.250.75 name=shop1.daumcdn.net
-add address=115.127.250.75 name=t1.daumcdn.net
-add address=115.127.250.75 name=t2.daumcdn.net
+add address=14.0.44.247 name=img1.daumcdn.net
+add address=14.0.44.247 name=img2.daumcdn.net
+add address=14.0.44.247 name=m1.daumcdn.net
+add address=14.0.44.247 name=search1.daumcdn.net
+add address=14.0.44.247 name=search2.daumcdn.net
+add address=14.0.44.247 name=shop1.daumcdn.net
+add address=14.0.44.247 name=t1.daumcdn.net
+add address=14.0.44.247 name=t2.daumcdn.net
 add address=121.53.201.232 name=agora.media.daum.net
 add address=121.53.201.234 name=gargoyle.daum.net
 add address=121.53.202.219 name=realty.daum.net
@@ -1107,6 +1102,8 @@ add address=13.210.167.213 name=help.duckduckgo.com
 add address=23.21.193.169 name=icons.duckduckgo.com
 add address=23.21.193.169 name=proxy.duckduckgo.com
 add address=23.21.193.169 name=images.duckduckgo.com
+add address=23.21.193.169 name=improving.duckduckgo.com
+add address=23.21.193.169 name=external-content.duckduckgo.com
 # DuckDuckGo End
 
 # Disqus Start
@@ -1179,6 +1176,7 @@ add address=151.101.230.79 name=prehistory101.freetls.fastly.net
 add address=151.101.230.79 name=tampermonkey.freetls.fastly.net
 add address=151.101.230.79 name=villagevoice.freetls.fastly.net
 add address=151.101.230.79 name=zcdn.freetls.fastly.net
+add address=151.101.230.79 name=herokudata-frontend.freetls.fastly.net
 # Fastly End
 
 # Feedly Start
@@ -1194,12 +1192,27 @@ add address=13.33.208.8 name=fbprod.flipboard.com
 add address=192.0.79.32 name=foreignpolicy.com
 # Foreign Policy End
 
-# Github Start
-add address=13.250.177.223 name=gist.github.com
-add address=13.250.177.223 name=github.com
-add address=13.229.188.59 name=www.github.com
+# GitHub Start
+add address=192.30.255.112 name=gist.github.com
+add address=192.30.255.112 name=github.com
+add address=192.30.255.112 name=www.github.com
+add address=151.101.56.133 name=avatars0.githubusercontent.com
+add address=151.101.56.133 name=avatars1.githubusercontent.com
+add address=151.101.56.133 name=avatars2.githubusercontent.com
+add address=151.101.56.133 name=avatars3.githubusercontent.com
+add address=151.101.56.133 name=avatars4.githubusercontent.com
+add address=151.101.56.133 name=avatars5.githubusercontent.com
+add address=151.101.56.133 name=avatars6.githubusercontent.com
+add address=151.101.56.133 name=avatars7.githubusercontent.com
+add address=151.101.56.133 name=avatars8.githubusercontent.com
+add address=151.101.56.133 name=camo.githubusercontent.com
+add address=151.101.56.133 name=cloud.githubusercontent.com
+add address=151.101.56.133 name=gist.githubusercontent.com
+add address=151.101.56.133 name=marketplace-screenshots.githubusercontent.com
 add address=151.101.56.133 name=raw.githubusercontent.com
-# Github End
+add address=151.101.56.133 name=repository-images.githubusercontent.com
+add address=151.101.56.133 name=user-images.githubusercontent.com
+# GitHub End
 
 # Gmail Start
 add address=216.58.215.229 name=gmail.com
@@ -1353,6 +1366,8 @@ add address=172.217.194.82 name=quiche.googlesource.com
 add address=172.217.194.82 name=skia.googlesource.com
 add address=172.217.194.82 name=swiftshader.googlesource.com
 add address=172.217.194.82 name=webrtc.googlesource.com
+add address=173.194.198.82 name=aomedia-review.googlesource.com
+add address=173.194.198.82 name=aomedia.googlesource.com
 add address=173.194.198.82 name=code.googlesource.com
 add address=173.194.198.82 name=fuchsia.googlesource.com
 add address=173.194.198.82 name=gcr.io
@@ -1631,6 +1646,7 @@ add address=172.217.5.131 name=apis.google.com
 
 # Google Service Start
 add address=216.239.34.21 name=blog.google
+add address=216.239.34.21 name=www.blog.google
 add address=216.239.38.21 name=environment.google
 add address=172.217.161.182 name=domains.google
 add address=64.15.126.100 name=domains.google.com
@@ -1650,7 +1666,6 @@ add address=74.125.206.210 name=bpui0.google.com
 add address=74.125.206.210 name=buzz.google.com
 add address=74.125.206.210 name=calendar.google.com
 add address=74.125.206.210 name=classroom.google.com
-add address=74.125.206.210 name=classroom.google.ca
 add address=74.125.206.210 name=cloud.google.com
 add address=74.125.206.210 name=packages.cloud.google.com
 add address=74.125.206.210 name=ssh.cloud.google.com
@@ -1760,10 +1775,10 @@ add address=74.125.206.210 name=suggestqueries.google.com
 add address=74.125.206.210 name=takeout.google.com
 add address=74.125.206.210 name=v3.cache1.c.docs.google.com
 add address=74.125.206.210 name=wallet.google.com
-add address=74.125.206.210 name=www.blog.google
 add address=74.125.206.210 name=www.googlegroups.com
 add address=74.125.206.210 name=www.googlestore.com
 add address=74.125.206.210 name=www.tensorflow.org
+add address=74.125.206.210 name=tensorflow.org
 add address=74.125.206.210 name=writely.google.com
 add address=74.125.206.210 name=auth.keyhole.com
 add address=74.125.206.210 name=talkgadget.l.google.com
@@ -3070,6 +3085,7 @@ add address=172.217.31.103 name=browserchannel-docs.l.google.com
 add address=172.217.14.127 name=golang.org
 add address=172.217.14.127 name=golang-consa.l.google.com
 add address=172.217.14.128 name=tour.golang.org
+add address=172.217.14.128 name=blog.golang.org
 # Google GoLang End
 
 # Google Service:Google Play Start
@@ -3079,7 +3095,7 @@ add address=108.177.121.201 name=play.googleapis.com
 add address=172.217.5.137 name=alt7-mtalk.google.com
 # Google Service:Google Play End
 
-# Google:gcm Start
+# Google:gcm/fcm Start
 add address=108.177.97.188 name=mobile-gtalk.l.google.com
 add address=108.177.97.188 name=mtalk.google.com
 add address=108.177.97.188 name=mtalk4.google.com
@@ -3088,8 +3104,9 @@ add address=108.177.97.188 name=gcm.l.google.com
 add address=108.177.97.188 name=gcm-xmpp.googleapis.com
 add address=108.177.97.188 name=gcm-preprod.l.google.com
 add address=108.177.97.188 name=gcm-preprod.googleapis.com
+add address=108.177.97.188 name=fcm.googleapis.com
 add address=216.58.199.10 name=gcm-http.googleapis.com
-# Google:gcm End
+# Google:gcm/fcm End
 
 # Google:ghs Start
 add address=216.239.38.21 name=ghs.google.com
@@ -3166,6 +3183,12 @@ add address=172.217.31.179 name=1d73367a8bc4b849f5286dc68416acfd.baas.nintendo.c
 add address=216.239.38.21 name=220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
 add address=216.239.34.21 name=3cf08074951d6dc0092cd80f2af9aa50.baas.nintendo.com
 # Google:npf base End
+
+# Google TLDs Start
+add address=172.217.160.0 name=iam.soy
+add address=172.217.160.0 name=www.iam.soy
+add address=172.217.160.0 name=xn--p8j9a0d9c9a.xn--q9jyb4c
+# Google TLDs End
 
 # Googleusercontent Start
 add address=172.217.168.193 name=www.googleusercontent.com
@@ -3301,6 +3324,8 @@ add address=172.217.168.193 name=a-oz-opensocial.googleusercontent.com
 add address=172.217.168.193 name=lh0.googleusercontent.com
 add address=172.217.168.193 name=lh1.googleusercontent.com
 add address=172.217.168.193 name=lh2.googleusercontent.com
+add address=172.217.168.193 name=www-fbk-opensocial.googleusercontent.com
+add address=172.217.168.193 name=walkthroughs.googleusercontent.com
 add address=108.177.127.133 name=lh3.googleusercontent.com
 add address=108.177.127.133 name=lh4.googleusercontent.com
 add address=108.177.127.133 name=lh5.googleusercontent.com
@@ -3458,13 +3483,17 @@ add address=108.177.120.94 name=mt6.gstatic.com
 add address=108.177.120.94 name=mt7.gstatic.com
 # Gstatic End
 
+# Hacker News Start
+add address=209.216.230.240 name=news.ycombinator.com
+# Hacker News End
+
 # Hinet Start
 add address=211.20.148.228 name=hichannel.hinet.net
 add address=202.39.143.235 name=radio-hichannel.cdn.hinet.net
 # Hinet End
 
 # Heroku Start
-add address=34.192.228.6 name=id.heroku.com
+add address=34.230.120.16 name=id.heroku.com
 # Heroku End
 
 # HKGalden Start
@@ -3688,7 +3717,6 @@ add address=54.254.167.73 name=server.matters.news
 # Matters.news End
 
 # MEGA Start
-add address=31.216.148.10 name=mega.nz
 add address=117.18.237.188 name=g.cdn1.mega.co.nz
 # MEGA End
 
@@ -3823,7 +3851,7 @@ add address=210.140.131.210 name=dic.pixiv.net
 add address=210.140.131.211 name=comic.pixiv.net
 add address=210.140.131.212 name=factory.pixiv.net
 add address=18.211.61.121 name=g-client-proxy.pixiv.net
-add address=210.140.131.213 name=sketch.pixiv.net
+add address=210.140.170.179 name=sketch.pixiv.net
 add address=210.140.131.214 name=payment.pixiv.net
 add address=210.140.131.215 name=sensei.pixiv.net
 add address=210.140.131.216 name=novel.pixiv.net
@@ -3987,7 +4015,7 @@ add address=64.71.134.121 name=support.ixquick.com
 # Startpage & Ixquick End
 
 # Steam Start
-add address=104.71.136.93 name=steamcommunity.com
+add address=23.42.45.238 name=steamcommunity.com
 # Steam End
 
 # SupChina Start
@@ -4080,45 +4108,57 @@ add address=149.154.167.80 name=updates.tdesktop.com
 # Telegram End
 
 # Tor Start
-add address=138.201.14.197 name=atlas.torproject.org
-add address=138.201.14.197 name=bugs.torproject.org
-add address=138.201.14.197 name=cloud.torproject.org
-add address=138.201.14.197 name=consensus-health.torproject.org
-add address=138.201.14.197 name=deb.torproject.org
-add address=138.201.14.197 name=extra.torproject.org
-add address=138.201.14.197 name=gettor.torproject.org
-add address=138.201.14.197 name=help.torproject.org
-add address=138.201.14.197 name=onion.torproject.org
-add address=138.201.14.197 name=ooni.torproject.org
-add address=138.201.14.197 name=research.torproject.org
-add address=138.201.14.197 name=spec.torproject.org
-add address=138.201.14.197 name=stem.torproject.org
-add address=138.201.14.197 name=tb-manual.torproject.org
-add address=138.201.14.197 name=wiki.torproject.org
-add address=138.201.14.197 name=www.torproject.org
+add address=104.198.14.52 name=ooni.torproject.org
+add address=116.202.120.165 name=torproject.org
+add address=116.202.120.165 name=www.torproject.org
+add address=116.202.120.171 name=onionoo.torproject.org
+add address=116.202.120.172 name=blog.torproject.org
+add address=116.202.120.172 name=cache.torproject.org
+add address=138.201.14.206 name=gayi.torproject.org
 add address=138.201.14.206 name=svn.torproject.org
 add address=138.201.14.212 name=check.torproject.org
 add address=138.201.212.227 name=trac.torproject.org
+add address=138.201.212.227 name=troodi.torproject.org
 add address=138.201.212.228 name=git.torproject.org
 add address=138.201.212.228 name=gitweb.torproject.org
+add address=138.201.212.228 name=vineale.torproject.org
 add address=138.201.212.230 name=rt.torproject.org
-add address=138.201.212.231 name=donate.torproject.org
-add address=154.35.132.148 name=onionoo.torproject.org
-add address=161.47.6.182 name=labs.torproject.org
+add address=138.201.212.236 name=crm-ext-01.torproject.org
+add address=138.201.212.236 name=donate.torproject.org
+add address=159.69.63.226 name=archive-01.torproject.org
+add address=159.69.63.226 name=archive.torproject.org
 add address=195.201.54.244 name=people.torproject.org
+add address=195.201.54.244 name=perdulce.torproject.org
+add address=195.201.54.247 name=colchicifolium.torproject.org
 add address=195.201.54.247 name=collector.torproject.org
-add address=195.201.54.247 name=exonerator.torproject.org
-add address=23.185.0.2 name=blog.torproject.org
-add address=37.218.242.173 name=explorer.ooni.torproject.org
-add address=38.229.72.17 name=torproject.org
+add address=195.201.54.249 name=exonerator.torproject.org
+add address=195.201.54.249 name=materculae.torproject.org
+add address=37.218.242.149 name=explorer.ooni.io
+add address=37.218.242.149 name=explorer.ooni.torproject.org
+add address=38.229.72.19 name=dist.torproject.org
 add address=78.47.38.229 name=bridges.torproject.org
 add address=78.47.38.231 name=storm.torproject.org
-add address=82.195.75.101 name=dist.torproject.org
+add address=82.195.75.101 name=atlas.torproject.org
+add address=82.195.75.101 name=bugs.torproject.org
+add address=82.195.75.101 name=cloud.torproject.org
+add address=82.195.75.101 name=consensus-health.torproject.org
+add address=82.195.75.101 name=deb.torproject.org
+add address=82.195.75.101 name=extra.torproject.org
+add address=82.195.75.101 name=gettor.torproject.org
+add address=82.195.75.101 name=help.torproject.org
+add address=82.195.75.101 name=listera.torproject.org
 add address=82.195.75.101 name=media.torproject.org
+add address=82.195.75.101 name=onion.torproject.org
+add address=82.195.75.101 name=research.torproject.org
+add address=82.195.75.101 name=spec.torproject.org
+add address=82.195.75.101 name=static.torproject.org
+add address=82.195.75.101 name=stem.torproject.org
+add address=82.195.75.101 name=tb-manual.torproject.org
+add address=82.195.75.101 name=wiki.torproject.org
+add address=94.130.28.195 name=meronense.torproject.org
+add address=94.130.28.195 name=metrics.torproject.org
 add address=94.130.28.196 name=db.torproject.org
-add address=94.130.28.200 name=archive.torproject.org
 add address=94.130.28.202 name=lists.torproject.org
-add address=94.130.28.202 name=metrics.torproject.org
 # Tor End
 
 # Twitch Start
@@ -4164,8 +4204,8 @@ add address=54.84.222.78 name=app.twitch.tv
 add address=117.18.237.70 name=abs.twimg.com
 add address=117.18.237.70 name=pbs.twimg.com
 add address=117.18.237.70 name=ton.twimg.com
-add address=117.18.237.70 name=video.twimg.com
 add address=117.18.237.70 name=cdn.syndication.twimg.com
+add address=192.229.232.217 name=video.twimg.com
 # Twitter End
 
 # Uncyclopedia Start
